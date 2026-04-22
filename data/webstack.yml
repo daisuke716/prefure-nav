@@ -72,7 +72,7 @@
   - term: AI community
     links:
       - title: Hugging Face
-        url: https://www.kaggle.com
+        url: https://huggingface.co
         description: The AI community building the future.
 - taxonomy: Online System
   icon: fas fa-tools fa-lg
