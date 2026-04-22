@@ -48,21 +48,21 @@
 - taxonomy: AI Resource Platforms
   icon: fas fa-tools fa-lg
   list:
-  - term: Data Repository
-    links: 
-      - title: UC Irvine Machine Learning Repository
-        url: https://archive.ics.uci.edu
-        description: UC Irvine Machine Learning Repository
-  - term: Data Science / Machine Learning Platform
-    links:
-      - title: Kaggle
-        url: https://www.kaggle.com
-        description: Level up with the largest AI & ML community
-  - term: AI community
-    links:
-      - title: Hugging Face
-        url: https://huggingface.co
-        description: The AI community building the future.
+    - term: Data Repository
+      links:
+        - title: UC Irvine Machine Learning Repository
+          url: https://archive.ics.uci.edu
+          description: UC Irvine Machine Learning Repository
+    - term: Data Science / Machine Learning Platform
+      links:
+        - title: Kaggle
+          url: https://www.kaggle.com
+          description: Level up with the largest AI & ML community
+    - term: AI community
+      links:
+        - title: Hugging Face
+          url: https://huggingface.co
+          description: The AI community building the future.
 - taxonomy: Online System
   icon: fas fa-tools fa-lg
   links:
