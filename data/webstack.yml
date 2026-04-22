@@ -39,7 +39,12 @@
       logo: 
       url: https://www.markdownguide.org/
       description: Markdown Guide
-      
+    - title: Claude Code Docs
+      url: https://code.claude.com/docs/en/overview
+      description: Claude Code is an AI-powered coding assistant
+    - title: OpenClaw Documentation
+      url: https://docs.openclaw.ai
+      description: “EXFOLIATE! EXFOLIATE!” — A space lobster, probably
 - taxonomy: Repository
   icon: fas fa-tools fa-lg
   links: 
