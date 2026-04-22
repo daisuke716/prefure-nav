@@ -45,17 +45,6 @@
     - title: OpenClaw Documentation
       url: https://docs.openclaw.ai
       description: “EXFOLIATE! EXFOLIATE!” — A space lobster, probably
-- taxonomy: Repository
-  icon: fas fa-tools fa-lg
-  links: 
-     - title: UC Irvine Machine Learning Repository
-       logo: 
-       url: https://archive.ics.uci.edu
-       description: UC Irvine Machine Learning Repository
-     - title: Kaggle
-       logo: 
-       url: https://www.kaggle.com
-       description: Level up with the largest AI & ML community
 - taxonomy: AI Resource Platforms
   icon: fas fa-tools fa-lg
   list:
