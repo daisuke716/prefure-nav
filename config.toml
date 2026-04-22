@@ -1,4 +1,4 @@
-baseURL               = "http://142.171.141.28:1313/"
+baseURL               = "https://nav.prefure.com/"
 languageCode          = "en-US"
 title                 = "PreFure Nav"
 theme                 = "WebStack-Hugo"
