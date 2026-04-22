@@ -1,0 +1,16 @@
+- item: Home
+  icon: fa fa-home
+  link: "./"
+
+- item: Wiki
+  icon: fa fa-book
+  link: https://www.prefure.com/
+
+- item: 关于
+  icon: fa fa-cog
+  link: ""
+  list:
+    - name: 教程
+      url: https://github.com/shenweiyan/Knowledge-Garden/discussions/10
+    - name: 源码
+      url: https://github.com/shenweiyan/WebStack-Hugo
