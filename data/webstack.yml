@@ -61,7 +61,7 @@
        description: 出入国在留管理庁電子届出システム
      - title: DIPS
        logo: 
-       url: https://www.ens-immi.moj.go.jp/NA01/NAA01S/NAA01STransfer
+       url: https://www.ossportal.dips.mlit.go.jp/portal/top/
        description: ドローン情報基盤システム2.
        
 
