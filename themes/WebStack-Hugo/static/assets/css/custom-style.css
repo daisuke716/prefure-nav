@@ -1,6 +1,9 @@
 /*调整全局字体大小*/
 body,html{font-size:14px;}
 
+/*顶部导航下拉菜单不换行*/
+.navbar-collapse ul li ul{white-space:nowrap;width:auto;min-width:unset !important}
+
 /*左导航悬浮sidebar-menu-inner宽度调整为90px*/
 .sidebar-popup.sidebar-menu-inner > div > ul > li.sidebar-item>ul{position:absolute;top:0px;left:10px;width:auto !important;min-width:90px;z-index:99}
 .sidebar-popup.sidebar-menu-inner ul{width:auto !important;min-width:90px}
