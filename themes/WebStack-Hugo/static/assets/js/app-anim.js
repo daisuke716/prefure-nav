@@ -820,6 +820,9 @@
         if(window.localStorage.getItem("searchlistmenu")){
             $('.s-type-list.big label').removeClass('active');
             $(".s-type-list [data-id="+window.localStorage.getItem("searchlistmenu")+"]").addClass('active');
+        } else {
+            var groupClass = ($('.hide-type-list input:radio[name="type"]:checked').parents(".search-group").attr("class") || "").match(/group-\w+/);
+            if(groupClass) $(".s-type-list.big [data-id="+groupClass[0]+"]").addClass('active');
         }
         toTarget($(".s-type-list.big"),false,false);
         $('.hide-type-list .s-current').removeClass("s-current");
