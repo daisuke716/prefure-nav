@@ -45,7 +45,8 @@
     - title: OpenClaw Documentation
       url: https://docs.openclaw.ai
       description: “EXFOLIATE! EXFOLIATE!” — A space lobster, probably
-- taxonomy: AI Resource Platforms
+
+- taxonomy: AI Resource
   icon: fas fa-robot fa-lg
   list:
     - term: Data Repository
@@ -348,7 +349,9 @@
           url: http://mustsee.earth/
           logo: mustsee.png
           description: "Discover the world's most beautiful places at every opened tab."
-- taxonomy: 悠闲娱乐
+
+
+- taxonomy: Entertainment
   icon: fas fa-film fa-lg
   list:
     - term: 影音视频
@@ -379,7 +382,7 @@
           description: 163 网易云音乐。
    
       
-- taxonomy: 素材资源
+- taxonomy: Assets
   icon: far fa-folder-open fa-lg
   list:
     - term: 网盘资源
@@ -590,15 +593,23 @@
           description: Abstract Fonts (13,866 free fonts).      
       
 
-- taxonomy: 开发设计
+- taxonomy: Development
   icon: fas fa-tools fa-lg
   list: 
 
 
 
-- taxonomy: 资讯学习
+- taxonomy: Educational
   icon: fas fa-pencil-alt fa-lg
   list: 
+    - term: Visual Educational
+      links:
+        - title: Animagraffs
+          url: https://animagraffs.com
+          description: Animated infographics for science and education.
+        - title: Passport Index 2025
+          url: https://www.passportindex.org
+          description: World's passports in your pocket.
     - term: Documents
       links:
         - title: SurvivSJTUManual
