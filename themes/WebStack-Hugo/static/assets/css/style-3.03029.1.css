@@ -434,7 +434,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .s-type>span{display:block;height:31px;width:75px}
 .s-type-list{display:none;position:absolute;top:31px;padding:9pt 0;width:70px;background:#fff;border-radius:5px;box-shadow:0 9px 20px rgba(0,0,0,.16)}
 .s-type-list:before{position:absolute;top:-1pc;left:20px;content:'';display:block;width:0;height:0;border:10px solid transparent;border-bottom-color:#fff}
-.s-type-list label{display:block;font-size:15px;text-align:center;font-weight:normal;margin-bottom:0;padding:2px 0;cursor:pointer;transition:.3s}
+.s-type-list label{display:block;font-size:1.1rem;text-align:center;font-weight:700;margin-bottom:0;padding:2px 0;cursor:pointer;transition:.3s}
 .s-type-list label:hover{background:rgba(136,136,136,.1)}
 .s-type-list .tile-lg{color:#fff;width:3pc;height:3pc;font-size:1.25rem;line-height:3rem;border-radius:.3rem;display:block;margin:auto}
 .s-type:hover .s-type-list{display:block}
