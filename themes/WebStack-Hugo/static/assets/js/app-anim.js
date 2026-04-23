@@ -220,17 +220,17 @@
     function switch_mode(){
         if($('body').hasClass('io-black-mode')){
             if($(".switch-dark-mode").attr("data-original-title"))
-                $(".switch-dark-mode").attr("data-original-title","日间模式");
+                $(".switch-dark-mode").attr("data-original-title","Light Mode");
             else
-                $(".switch-dark-mode").attr("title","日间模式");
+                $(".switch-dark-mode").attr("title","Light Mode");
             $(".mode-ico").removeClass("icon-night");
             $(".mode-ico").addClass("icon-light");
         }
         else{
             if($(".switch-dark-mode").attr("data-original-title"))
-                $(".switch-dark-mode").attr("data-original-title","夜间模式");
+                $(".switch-dark-mode").attr("data-original-title","Dark Mode");
             else
-                $(".switch-dark-mode").attr("title","夜间模式");
+                $(".switch-dark-mode").attr("title","Dark Mode");
             $(".mode-ico").removeClass("icon-light");
             $(".mode-ico").addClass("icon-night");
         }

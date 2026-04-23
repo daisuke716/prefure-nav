@@ -13,7 +13,7 @@ publishDir            = "public"				# 站点静态文件保存目录
     description   = "Home | PreFure Nav"
     about         = "https://github.com/daisuke716/prefure-nav"	          # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/daisuke716/prefure-nav"  
-    enablePreLoad = true					# 网站完全打开前预加载动画
+    enablePreLoad = false					# 网站完全打开前预加载动画
     textPreLoad   = "PreFure Nav"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false					# 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
