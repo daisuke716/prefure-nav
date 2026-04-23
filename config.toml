@@ -37,10 +37,10 @@ publishDir            = "public"				# 站点静态文件保存目录
     favicon           = "assets/images/bi-favicon.png"
     searchImageL      = "assets/images/prefure-social-card.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/prefure-social-card.jpg"		# 搜索部分深色背景图
-    logoExpandLight   = "assets/images/bi-expand-dark.png"
-    logoExpandDark    = "assets/images/bi-expand-light.png"
-    logoCollapseLight = "assets/images/bi.png"
-    logoCollapseDark  = "assets/images/bi.png"
+    logoExpandLight   = "assets/images/logo_prefure.jpg"
+    logoExpandDark    = "assets/images/logo_prefure.jpg"
+    logoCollapseLight = "assets/images/logo_prefure.jpg"
+    logoCollapseDark  = "assets/images/logo_prefure.jpg"
     
 [markup.goldmark.renderer]
     unsafe = true
