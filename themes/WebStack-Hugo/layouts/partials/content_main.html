@@ -56,13 +56,11 @@
                                         {{ else }}
                                             {{ $host := (urls.Parse .url).Host }}
                                             {{ $faviconURL := printf "https://favicon.im/%s?larger=true" $host }}
-                                            {{ $fallbackURL := printf "https://api.iowen.cn/favicon/%s.png" $host }}
                                             {{ if $.Site.Params.defaultLogo }}
                                                 <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}"
-                                                    onerror="this.src='{{ $fallbackURL }}';this.onerror=function(){this.src='{{ $.Site.Params.defaultLogo }}'}" alt="{{ .title }}">
+                                                    onerror="this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
                                             {{ else }}
-                                                <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}"
-                                                    onerror="this.src='{{ $fallbackURL }}'" alt="{{ .title }}">
+                                                <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}" alt="{{ .title }}">
                                             {{ end }}
                                         {{ end }}
                                     </div>
@@ -141,13 +139,11 @@
                                         {{ else }}
                                             {{ $host := (urls.Parse .url).Host }}
                                             {{ $faviconURL := printf "https://favicon.im/%s?larger=true" $host }}
-                                            {{ $fallbackURL := printf "https://api.iowen.cn/favicon/%s.png" $host }}
                                             {{ if $.Site.Params.defaultLogo }}
                                                 <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}"
-                                                    onerror="this.src='{{ $fallbackURL }}';this.onerror=function(){this.src='{{ $.Site.Params.defaultLogo }}'}" alt="{{ .title }}">
+                                                    onerror="this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
                                             {{ else }}
-                                                <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}"
-                                                    onerror="this.src='{{ $fallbackURL }}'" alt="{{ .title }}">
+                                                <img class="lazy" src="{{ $faviconURL }}" data-src="{{ $faviconURL }}" alt="{{ .title }}">
                                             {{ end }}
                                         {{ end }}
                                     </div>
