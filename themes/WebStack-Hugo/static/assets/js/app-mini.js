@@ -382,7 +382,7 @@
             }
             else{
                 $('.sidebar-nav').addClass('animate-nav');
-                $('.sidebar-nav').stop().animate({width: 170},200);
+                $('.sidebar-nav').stop().animate({width: 200},200);
             }
         }else{
             $('.sidebar-item.sidebar-show').removeClass('sidebar-show');
