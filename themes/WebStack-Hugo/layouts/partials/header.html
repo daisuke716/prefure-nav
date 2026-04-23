@@ -55,6 +55,18 @@
     {{ end }}
     <!-- end Google AdSense -->
 
+    <!-- Open Graph / Social Card -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Site.BaseURL }}" />
+    <meta property="og:title" content="{{ .Site.Title }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta property="og:image" content="{{ absURL $.Site.Params.images.searchImageL }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+    <meta name="twitter:image" content="{{ absURL $.Site.Params.images.searchImageL }}" />
+    <!-- end Open Graph -->
+
     <!-- Fancybox -->
     {{if .Page.Site.Params.fancybox }}
     <link rel="stylesheet" id="fancybox-css" href="{{ absURL "assets/css/fancybox.min-3.5.7.css" }}"/>
