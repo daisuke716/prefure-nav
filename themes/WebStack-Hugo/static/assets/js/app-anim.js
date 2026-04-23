@@ -381,7 +381,7 @@
             if(isNoAnim){
 		console.log('isNoAnim=true');
                 $('.sidebar-nav').removeClass('animate-nav');
-                $('.sidebar-nav').width(170);
+                $('.sidebar-nav').width(200);
             }
             else{
 		console.log('isNoAnim=false');
