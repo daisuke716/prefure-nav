@@ -386,7 +386,7 @@
             else{
 		console.log('isNoAnim=false');
                 $('.sidebar-nav').addClass('animate-nav');
-                $('.sidebar-nav').stop().animate({width: 170},200);
+                $('.sidebar-nav').stop().animate({width: 200},200);
             }
         }else{
             console.log('checked=false');
