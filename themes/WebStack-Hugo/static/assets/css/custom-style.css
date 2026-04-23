@@ -42,7 +42,7 @@ body,html{font-size:14px;}
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 
 /*主页header-banner底部宽度*/
-.post-top{padding-bottom:50px}
+.post-top{padding-bottom:80px}
 
 /*左导航二级导航标题左侧距离*/
 .sidebar-menu-inner ul li ul li a{margin-left:30px;}
