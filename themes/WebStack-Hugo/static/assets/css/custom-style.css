@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Catamaran:wght@100..900&display=swap');
 
 /*调整全局字体大小*/
 body,html{font-size:14px;}
@@ -34,6 +34,7 @@ body,html{font-size:14px;}
 
 /*主页搜索搜索框(头+底部)字体颜色*/
 .header-big:not(.no-bg) .s-type-list{color:#20c997}
+.header-big .s-type-list.big label span{font-family:"Catamaran",sans-serif;}
 .header-big:not(.no-bg) .text-muted,.header-big:not(.no-bg) .search-type .menu-item a,.header-big:not(.no-bg) .big-title .h1{color:#ffffff!important}
 
 /*主页header-banner底部宽度*/
