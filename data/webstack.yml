@@ -136,10 +136,9 @@
           url: https://www.gaoding.com
           logo: gaoding.png
           description: 免费在线抠图软件,图片快速换背景-抠白底图。
-        - title: 一为获取网站 Favicon
-          url: https://api.iowen.cn/doc/favicon.html
-          logo: https://api.iowen.cn/favicon/www.iowen.cn.png
-          description: 根据URL地址获取网站的图标
+        - title: Favicon
+          url: https://favicon.im/
+          description: Favicon.im/{domain}
     - term: Cloud Computing Services
       links:
         - title: Amazon Web Services
