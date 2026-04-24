@@ -99,24 +99,22 @@
           description: 科学研究費助成事業データベース
     - term: Productivity Tools
       links:
+        - title: Notion
+          url: https://www.notion.so
+          description: The AI workspace that works for you.
         - title: Overleaf
-          logo: 
           url: https://www.overleaf.com
           description: Online LaTeX editor
         - title: ChatGPT
-          logo: 
           url: https://chatgpt.com
           description: ChatGPT
         - title: DeepL
-          logo: 
           url: https://www.deepl.com/
           description: DeepL Translation
         - title: Manim Community
-          logo: 
           url: https://www.manim.community
           description: A community maintained Python library for creating mathematical animations.
         - title: 乔布简历
-          logo: 
           url: https://cv.qiaobutang.com
           description: 乔布简历
         - title: ProcessOn
@@ -157,21 +155,20 @@
     - term: Cloud Computing Services
       links:
         - title: Amazon Web Services
-          logo: 
           url: https://aws.amazon.com
           description: aws
         - title: Cloudflare
-          logo: 
           url: https://www.cloudflare.com
           description: Connect, protect, and build everywhere      
-        - title: 阿里云
-          logo: 阿里云.jpg
+        - title: Alibaba Cloud
           url: https://www.aliyun.com/
-          description: 上云就上阿里云。
+          description: AI and Cloud Computing Services
         - title: 腾讯云
-          logo: 腾讯云.webp
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
+        - title: Tencent Cloud
+          url: https://www.tencentcloud.com/
+          description: Tencent Cloud For Developers
         - title: Netlify
           logo: 
           url: https://www.netlify.com
