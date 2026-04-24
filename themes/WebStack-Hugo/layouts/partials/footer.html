@@ -76,8 +76,8 @@ $('#search-list .search-type').each(function(){
     var $ul = $(this);
     $ul.wrap('<div class="search-type-wrap"></div>');
     var $wrap = $ul.parent();
-    $wrap.append('<span class="search-scroll-arr arr-left">&#9664;</span>');
-    $wrap.append('<span class="search-scroll-arr arr-right">&#9654;</span>');
+    $wrap.append('<span class="search-scroll-arr arr-left">&#9664;&#xFE0E;</span>');
+    $wrap.append('<span class="search-scroll-arr arr-right">&#9654;&#xFE0E;</span>');
     function updateArrows(){
         var el = $ul[0];
         var sl = el.scrollLeft;
