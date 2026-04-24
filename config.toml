@@ -33,7 +33,7 @@ publishDir            = "public"				# 站点静态文件保存目录
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
-    favicon           = "assets/images/logo_prefure.png"
+    favicon           = "assets/images/logo_prefure.jpg"
     searchImageL      = "assets/images/prefure-social-card.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/prefure-social-card.jpg"		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/logo_prefure.jpg"

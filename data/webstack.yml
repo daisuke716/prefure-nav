@@ -1,6 +1,6 @@
 ---
 
-- taxonomy: References
+- taxonomy: Documentation
   icon: far fa-star
   links: 
     - title: ROS 2 Documentation
@@ -83,6 +83,20 @@
 - taxonomy: Online Tools
   icon: fas fa-flask fa-lg
   list:
+    - term: Academic Research
+      links:
+        - title: arXiv
+          url: https://arxiv.org
+          description: e-Print archive
+        - title: Google Scholar
+          url: https://scholar.google.com
+          description: Google Scholar provides a simple way to broadly search for scholarly literature.
+        - title: National Library of Medicine
+          url: https://pubmed.ncbi.nlm.nih.gov
+          description: National Center for Biotechnology Information
+        - title: KAKEN
+          url: https://kaken.nii.ac.jp/ja/index/
+          description: 科学研究費助成事業データベース
     - term: Productivity Tools
       links:
         - title: Overleaf
@@ -166,20 +180,6 @@
           logo: 
           url: https://cloudcone.com
           description: Managed Cloud Hosting, Dedicated Servers, Cloud Services
-    - term: Scientific Research
-      links:
-        - title: 有道词典
-          logo: 有道词典.png
-          url: https://www.youdao.com/
-          description: 免费，即时的多语种在线翻译。
-        - title: 有道翻译
-          logo: 有道词典.png
-          url: http://fanyi.youdao.com/
-          description: 有道翻译。
-        - title: KAKEN
-          logo: 
-          url: https://kaken.nii.ac.jp/ja/index/
-          description: 科学研究費助成事業データベース
     
     - term: Tracking
       links:
