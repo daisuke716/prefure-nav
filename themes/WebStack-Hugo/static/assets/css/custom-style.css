@@ -154,6 +154,15 @@ footer.main-footer .footer-text a:hover {
 /*分类标题字体*/
 h4.text-gray{font-weight: 700; font-family:"Fragment Mono",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;}
 
+/*搜索引擎列表滚动箭头*/
+.search-type-wrap{position:relative;padding:0 24px}
+.search-type-wrap>ul.search-type{overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none}
+.search-type-wrap>ul.search-type::-webkit-scrollbar{display:none}
+.search-scroll-arr{position:absolute;top:0;bottom:0;width:24px;display:none;align-items:center;justify-content:center;cursor:pointer;color:rgba(255,255,255,0.85);font-size:10px}
+.search-scroll-arr.arr-left{left:0}
+.search-scroll-arr.arr-right{right:0}
+.io-grey-mode .search-scroll-arr{color:rgba(0,0,0,0.5)}
+
 
 
 

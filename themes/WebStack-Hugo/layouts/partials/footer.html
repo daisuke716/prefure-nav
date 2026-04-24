@@ -72,6 +72,36 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 </script>
 
 <script>
+$('#search-list .search-type').each(function(){
+    var $ul = $(this);
+    $ul.wrap('<div class="search-type-wrap"></div>');
+    var $wrap = $ul.parent();
+    $wrap.append('<span class="search-scroll-arr arr-left">&#9664;</span>');
+    $wrap.append('<span class="search-scroll-arr arr-right">&#9654;</span>');
+    function updateArrows(){
+        var el = $ul[0];
+        var sl = el.scrollLeft;
+        var max = el.scrollWidth - el.clientWidth;
+        $wrap.find('.arr-left').css('display', sl > 2 ? 'flex' : 'none');
+        $wrap.find('.arr-right').css('display', max - sl > 2 ? 'flex' : 'none');
+    }
+    $ul.on('scroll', updateArrows);
+    $wrap.find('.arr-left').on('click', function(){ $ul.animate({scrollLeft: $ul.scrollLeft()-120}, 200); });
+    $wrap.find('.arr-right').on('click', function(){ $ul.animate({scrollLeft: $ul.scrollLeft()+120}, 200); });
+    $ul.data('updateArrows', updateArrows);
+});
+$(document).ready(function(){
+    setTimeout(function(){
+        $('#search-list .search-type').each(function(){ $(this).data('updateArrows') && $(this).data('updateArrows')(); });
+    }, 400);
+});
+$(document).on('click', '#search-list-menu label', function(){
+    setTimeout(function(){
+        $('#search-list .search-type').each(function(){ $(this).data('updateArrows') && $(this).data('updateArrows')(); });
+    }, 150);
+});
+</script>
+<script>
 //夜间(日间)模式
 (function(){
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
