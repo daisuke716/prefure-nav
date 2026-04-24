@@ -21,6 +21,7 @@ body,html{font-size:14px;}
 
 /*搜索框搜索图标颜色*/
 #search button i{color:#6C757D;font-size:18px}
+.header-big #search button:hover i{color:#20c997}
 
 /*顶部导航栏字体*/
 .page-header{font-family:"Fragment Mono",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;}
@@ -41,9 +42,14 @@ body,html{font-size:14px;}
 .big-header-banner .header-mini-btn label:hover path{stroke:#25c5a0;}
 
 /*搜索栏字体+背景*/
-.header-big #search-text{color:#6C757D;}
+.header-big #search-text{color:#6C757D;font-family:"Fragment Mono",-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;}
 .io-black-mode .header-big #search-text{color:#fff;}
 .io-grey-mode .header-big #search-text,.io-grey-mode .header-big .search-type input:checked+label,.io-grey-mode .header-big .search-type input:hover+label{background-color:rgba(255,255,255,0.70)}
+.io-grey-mode .header-big #search-text{color:#000;caret-color:#000}
+.io-grey-mode .header-big #search-text::placeholder{color:#6C757D}
+.io-grey-mode .header-big #search-text:hover::placeholder,.io-grey-mode .header-big #search-text:focus::placeholder{color:#000}
+.io-black-mode .header-big #search-text:hover::placeholder,.io-black-mode .header-big #search-text:focus::placeholder{color:#fff;opacity:1}
+.header-big #search-text:hover,.header-big #search-text:focus{border-color:#20c997;border-width:2px}
 .io-grey-mode #search .search-select{background-color:rgba(255,255,255,0.70);border-color:transparent}
 
 /*搜索activate图标颜色*/
