@@ -201,6 +201,7 @@
     //夜间模式
     $(document).on('click', '.switch-dark-mode', function(event) {
         event.preventDefault();
+        if(!theme.ajaxurl) return;
         $.ajax({
             url: theme.ajaxurl,
             type: 'POST',
