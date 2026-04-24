@@ -203,7 +203,23 @@
           logo:
           url: https://www.track123.com
           description: Track123
-          
+    - term: Cloud Storage
+      links:
+        - title: Google Drive
+          url: https://drive.google.com/
+          description: Share Files Online with Secure Cloud Storage
+        - title: MEGA
+          url: http://mega.nz
+          description: Protect your Online Privacy
+        - title: Baidu Netdisk
+          url: http://pan.baidu.com/
+          description: 免费云盘丨文件共享软件丨超大容量丨存储安全
+        - title: 阿里云盘
+          url: https://www.alipan.com
+          description: 备份无忧整理有序·阿里巴巴集团出品
+        - title: 夸克网盘
+          url: https://pan.quark.cn
+          description: 网页版入口丨安全存储丨极速传输丨阿里云专业守护
     - term: UI Design
       links:
         - title: Sketch
@@ -352,23 +368,6 @@
 - taxonomy: Assets
   icon: far fa-folder-open fa-lg
   list:
-    - term: Cloud Storage
-      links:
-        - title: Google Drive
-          url: https://drive.google.com/
-          description: Share Files Online with Secure Cloud Storage
-        - title: MEGA
-          url: http://mega.nz
-          description: Protect your Online Privacy
-        - title: Baidu Netdisk
-          url: http://pan.baidu.com/
-          description: 免费云盘丨文件共享软件丨超大容量丨存储安全
-        - title: 阿里云盘
-          url: https://www.alipan.com
-          description: 备份无忧整理有序·阿里巴巴集团出品
-        - title: 夸克网盘
-          url: https://pan.quark.cn
-          description: 网页版入口丨安全存储丨极速传输丨阿里云专业守护
     - term: Logo Design
       links:
         - title: Iconfinder
@@ -423,7 +422,7 @@
           logo: simplelineicons.png
           url: http://simplelineicons.com/
           description: Simple line Icons pack.
-    - term: Icons Design
+    - term: Icons
       links:
         - title: Iconsfeed
           logo: iconsfeed.png
@@ -441,7 +440,7 @@
           logo: InstantLogoSearch.png
           url: http://instantlogosearch.com/
           description: Search & download thousands of logos instantly.
-    - term: 平面素材
+    - term: Graphic
       links:
         - title: freepik
           logo: freepik.png
@@ -495,7 +494,7 @@
           logo: sccnn.png
           url: http://www.sccnn.com/
           description: 免费素材共享平台。
-    - term: 字体资源
+    - term: Fonts
       links:
         - title: Google Font
           url: https://fonts.google.com/
