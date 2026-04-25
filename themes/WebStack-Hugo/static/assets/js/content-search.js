@@ -2,19 +2,37 @@
 var hotList = 0;
 var suggestionEngine = null; // 'baidu' | 'google'
 
+function countryToFlag(code) {
+    return code.toUpperCase().replace(/./g, function(c) {
+        return String.fromCodePoint(c.charCodeAt(0) + 127397);
+    });
+}
+
+function updateCountryDisplay(code, name) {
+    var $el = $('#user-country-info');
+    if ($el.length && code && name) {
+        $el.html(countryToFlag(code) + '&nbsp;' + name);
+    }
+}
+
 function initSuggestionEngine() {
-    var cached = localStorage.getItem('sg_country');
+    var cached     = localStorage.getItem('sg_country');
+    var cachedName = localStorage.getItem('sg_country_name');
     var cachedTime = parseInt(localStorage.getItem('sg_country_time') || '0');
     // 缓存24小时
-    if (cached && (Date.now() - cachedTime) < 86400000) {
+    if (cached && cachedName && (Date.now() - cachedTime) < 86400000) {
         suggestionEngine = (cached === 'CN') ? 'baidu' : 'google';
+        updateCountryDisplay(cached, cachedName);
         return;
     }
     $.getJSON('https://ipapi.co/json/', function(data) {
         var country = data.country_code || 'XX';
-        localStorage.setItem('sg_country', country);
+        var name    = data.country_name  || country;
+        localStorage.setItem('sg_country',      country);
+        localStorage.setItem('sg_country_name', name);
         localStorage.setItem('sg_country_time', Date.now().toString());
         suggestionEngine = (country === 'CN') ? 'baidu' : 'google';
+        updateCountryDisplay(country, name);
     }).fail(function() {
         suggestionEngine = 'google';
     });
