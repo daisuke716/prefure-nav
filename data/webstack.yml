@@ -4,39 +4,34 @@
   icon: far fa-star
   links: 
     - title: ROS 2 Documentation
-      logo: 
       url: http://docs.ros.org
       description: Documentation and tutorials for ROS
     - title: Unity Documentation
-      logo: 
       url: https://docs.unity.com
       description: Docs and guides to work with the Unity ecosystem.
     - title: NumPy Documentation
-      logo: 
       url: https://numpy.org/doc/stable/
       description: "NumPy documentation"
     - title: Matplotlib documentation
-      logo: 
       url: https://matplotlib.org/stable/
       description: "Matplotlib documentation"      
     - title: Git
-      logo: 
       url: https://git-scm.com/docs
       description: Git-Reference
     - title: GitHub Docs
       logo: github.png
       url: https://docs.github.com/en/
       description: GitHub Docs
+    - title: Netlify Documentation
+      url: https://docs.netlify.com
+      description: Build & deploy faster with any modern frontend stack or AI agent.
     - title: mdn web docs
-      logo: 
       url: https://developer.mozilla.org/en-US/docs/Web
       description: Web technology for developers
     - title: RUNOOB
-      logo: 
       url: https://www.runoob.com
       description: 菜鸟教程
     - title: Markdown Guide
-      logo: 
       url: https://www.markdownguide.org/
       description: Markdown Guide
     - title: Claude Code Docs
