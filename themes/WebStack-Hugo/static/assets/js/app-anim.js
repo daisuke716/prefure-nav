@@ -946,10 +946,10 @@
         parent = $(this).parents('#search');
         if ($(this).val() && !isZhannei) {
             switch(theme.hotWords) {
-                case "baidu": 
-                    getSmartTipsBaidu($(this).val(),parent)
-                    break;
-                case "google": 
+                // case "baidu":
+                //     getSmartTipsBaidu($(this).val(),parent)
+                //     break;
+                case "google":
                     getSmartTipsGoogle($(this).val(),parent)
                     break;
                 default: 
@@ -964,10 +964,10 @@
                 return
             }
             switch(theme.hotWords) {
-                case "baidu": 
-                    getSmartTipsBaidu($(this).val(),parent)
-                    break;
-                case "google": 
+                // case "baidu":
+                //     getSmartTipsBaidu($(this).val(),parent)
+                //     break;
+                case "google":
                     getSmartTipsGoogle($(this).val(),parent)
                     break;
                 default: 

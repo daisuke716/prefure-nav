@@ -1,36 +1,48 @@
 //关键词sug
 var hotList = 0;
 $(function() {
+    var $word = $('#word');
+    var $container = $word.closest('.search-smart-tips');
+
+    function showSuggestions() {
+        $container.stop(true, true).show();
+        $word.show();
+    }
+    function hideSuggestions() {
+        $word.empty().hide();
+        $container.hide();
+    }
+
     $('#search-text').keyup(function() {
         var keywords = $(this).val();
-        if (keywords == '') { $('#word').hide(); return };
+        if (keywords == '') { hideSuggestions(); return };
         $.ajax({
             url: 'https://suggestqueries.google.com/complete/search?client=chrome&q=' + encodeURIComponent(keywords),
             dataType: 'jsonp',
             jsonp: 'callback',
             success: function(res) {
-                $('#word').empty().show();
+                $word.empty();
                 var suggestions = res[1];
                 hotList = suggestions.length;
                 if (hotList) {
-                    $("#word").css("display", "block");
                     for (var i = 0; i < hotList; i++) {
-                        $("#word").append("<li><span>" + (i + 1) + "</span>" + suggestions[i] + "</li>");
-                        if (i === 0) {
-                            $("#word ul span").eq(i).css({"color": "#fff", "background": "#f54545"});
-                        } else if (i === 1) {
-                            $("#word ul span").eq(i).css({"color": "#fff", "background": "#ff8547"});
-                        } else if (i === 2) {
-                            $("#word ul span").eq(i).css({"color": "#fff", "background": "#ffac38"});
-                        }
+                        // $word.append("<li><span>" + (i + 1) + "</span>" + suggestions[i] + "</li>");
+                        $word.append("<li>" + suggestions[i] + "</li>");
+                        // if (i === 0) {
+                        //     $word.find("li:last span").css({"color": "#fff", "background": "#f54545"});
+                        // } else if (i === 1) {
+                        //     $word.find("li:last span").css({"color": "#fff", "background": "#ff8547"});
+                        // } else if (i === 2) {
+                        //     $word.find("li:last span").css({"color": "#fff", "background": "#ffac38"});
+                        // }
                     }
+                    showSuggestions();
                 } else {
-                    $("#word").css("display", "none");
+                    hideSuggestions();
                 }
             },
             error: function() {
-                $('#word').empty();
-                $('#word').hide();
+                hideSuggestions();
             }
         })
     })
@@ -38,13 +50,11 @@ $(function() {
     $(document).on('click', '#word li', function() {
         var word = $(this).text().replace(/^[0-9]/, '');
         $('#search-text').val(word);
-        $('#word').empty();
-        $('#word').hide();
+        hideSuggestions();
         $('.submit').trigger('click');
     })
 
     $(document).on('click', '.io-grey-mode', function() {
-        $('#word').empty();
-        $('#word').hide();
+        hideSuggestions();
     })
 })
