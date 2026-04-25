@@ -2,16 +2,11 @@
 var hotList = 0;
 var suggestionEngine = null; // 'baidu' | 'google'
 
-function countryToFlag(code) {
-    return code.toUpperCase().replace(/./g, function(c) {
-        return String.fromCodePoint(c.charCodeAt(0) + 127397);
-    });
-}
-
 function updateCountryDisplay(code, name) {
     var $el = $('#user-country-info');
     if ($el.length && code && name) {
-        $el.html('<a href="javascript:;" style="cursor:default;text-decoration:none;">' + countryToFlag(code) + '&nbsp;' + name + '</a>');
+        var flag = '<span class="fi fi-' + code.toLowerCase() + '" style="border-radius:3px;margin-right:6px;"></span>';
+        $el.html('<a href="javascript:;" style="cursor:default;text-decoration:none;display:flex;align-items:center;">' + flag + name + '</a>');
     }
 }
 
