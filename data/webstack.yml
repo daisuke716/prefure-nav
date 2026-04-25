@@ -165,11 +165,12 @@
           url: https://www.tencentcloud.com/
           description: Tencent Cloud For Developers
         - title: Netlify
-          logo: 
           url: https://www.netlify.com
           description: Scale & Ship Faster with a Composable Web Architecture
+        - title: Vercel
+          url: https://vercel.com/
+          description: Build and deploy on the AI Cloud.
         - title: CloudCone
-          logo: 
           url: https://cloudcone.com
           description: Managed Cloud Hosting, Dedicated Servers, Cloud Services
     
