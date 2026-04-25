@@ -11,7 +11,7 @@ function countryToFlag(code) {
 function updateCountryDisplay(code, name) {
     var $el = $('#user-country-info');
     if ($el.length && code && name) {
-        $el.html(countryToFlag(code) + '&nbsp;' + name);
+        $el.html('<a href="javascript:;" style="cursor:default;text-decoration:none;">' + countryToFlag(code) + '&nbsp;' + name + '</a>');
     }
 }
 
