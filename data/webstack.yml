@@ -1,45 +1,58 @@
 ---
 
 - taxonomy: Documentation
-  icon: far fa-star
-  links: 
-    - title: ROS 2 Documentation
-      url: http://docs.ros.org
-      description: Documentation and tutorials for ROS
-    - title: Unity Documentation
-      url: https://docs.unity.com
-      description: Docs and guides to work with the Unity ecosystem.
-    - title: NumPy Documentation
-      url: https://numpy.org/doc/stable/
-      description: "NumPy documentation"
-    - title: Matplotlib documentation
-      url: https://matplotlib.org/stable/
-      description: "Matplotlib documentation"      
-    - title: Git
-      url: https://git-scm.com/docs
-      description: Git-Reference
-    - title: GitHub Docs
-      logo: github.png
-      url: https://docs.github.com/en/
-      description: GitHub Docs
-    - title: Netlify Documentation
-      url: https://docs.netlify.com
-      description: Build & deploy faster with any modern frontend stack or AI agent.
-    - title: mdn web docs
-      url: https://developer.mozilla.org/en-US/docs/Web
-      description: Web technology for developers
-    - title: RUNOOB
-      url: https://www.runoob.com
-      description: 菜鸟教程
-    - title: Markdown Guide
-      url: https://www.markdownguide.org/
-      description: Markdown Guide
-    - title: Claude Code Docs
-      url: https://code.claude.com/docs/en/overview
-      description: Claude Code is an AI-powered coding assistant
-    - title: OpenClaw Documentation
-      url: https://docs.openclaw.ai
-      description: “EXFOLIATE! EXFOLIATE!” — A space lobster, probably
+  icon: fas fa-book
+  list:
+    - term: Technical Docs
+      links:
+        - title: ROS 2 Documentation
+          url: http://docs.ros.org
+          description: Documentation and tutorials for ROS
+        - title: Unity Documentation
+          url: https://docs.unity.com
+          description: Docs and guides to work with the Unity ecosystem.
+        - title: NumPy Documentation
+          url: https://numpy.org/doc/stable/
+          description: “NumPy documentation”
+        - title: Matplotlib documentation
+          url: https://matplotlib.org/stable/
+          description: “Matplotlib documentation”
+        - title: Git
+          url: https://git-scm.com/docs
+          description: Git-Reference
+        - title: GitHub Docs
+          logo: github.png
+          url: https://docs.github.com/en/
+          description: GitHub Docs
+        - title: Netlify Documentation
+          url: https://docs.netlify.com
+          description: Build & deploy faster with any modern frontend stack or AI agent.
+        - title: mdn web docs
+          url: https://developer.mozilla.org/en-US/docs/Web
+          description: Web technology for developers
+        - title: RUNOOB
+          url: https://www.runoob.com
+          description: 菜鸟教程
+        - title: Markdown Guide
+          url: https://www.markdownguide.org/
+          description: Markdown Guide
+        - title: Claude Code Docs
+          url: https://code.claude.com/docs/en/overview
+          description: Claude Code is an AI-powered coding assistant
+        - title: OpenClaw Documentation
+          url: https://docs.openclaw.ai
+          description: “EXFOLIATE! EXFOLIATE!” — A space lobster, probably
+    - term: Wiki & Guides
+      links:
+        - title: Wikipedia
+          url: https://www.wikipedia.org/
+          description: Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation.
+        - title: wikiHow
+          url: https://zh.wikihow.com/
+          description: wikiHow：你可以信赖的万事指南
+        - title: SurvivSJTUManual
+          url: https://survivesjtu.gitbook.io/survivesjtumanual
+          description: SurvivSJTUManual
 
 - taxonomy: AI Resource
   icon: fas fa-robot fa-lg
@@ -81,6 +94,31 @@
 - taxonomy: Online Tools
   icon: fas fa-flask fa-lg
   list:
+    - term: General AI
+      links:
+        - title: ChatGPT
+          url: https://chatgpt.com
+          description: ChatGPT is your AI chatbot for everyday use.
+        - title: Gemini
+          url: https://gemini.google.com/
+          description: Gemini - Google
+        - title: Claude Code
+          url: https://claude.ai
+          description: AI Coding Agent, Terminal, IDE
+        - title: Gork
+          url: https://grok.com
+          description: Grok is an AI assistant built by xAI
+        - title: DeepSeek
+          url: https://www.deepseek.com
+          description: 深度求索
+        - title: 豆包
+          url: https://www.doubao.com/
+          description: 字节跳动旗下AI智能助手
+    - term: AI Agents
+      links:
+        - title: OpenClaw
+          url: https://myclaw.ai/
+          description: OpenClaw, Always Online
     - term: Academic Research
       links:
         - title: arXiv
@@ -103,9 +141,6 @@
         - title: Overleaf
           url: https://www.overleaf.com
           description: Online LaTeX editor
-        - title: ChatGPT
-          url: https://chatgpt.com
-          description: ChatGPT
         - title: DeepL
           url: https://www.deepl.com/
           description: DeepL Translation
@@ -364,12 +399,56 @@
           url: https://www.pornhub.com
           description: Free Porn Videos & Sex Movies - Porno, XXX, Porn Tube
    
-      
+- taxonomy: Finance
+  icon: fas fa-chart-line fa-lg
+  list:
+    - term: Stock & Securities
+      links:
+        - title: SBI Securities
+          url: https://www.sbisec.co.jp/
+          description: SBI証券 - ネット証券最大手
+        - title: Rakuten Securities
+          url: https://www.rakuten-sec.co.jp/
+          description: 楽天証券 - Online stock trading
+        - title: Nikkei
+          url: https://www.nikkei.com/
+          description: 日本経済新聞 - Japan's leading financial newspaper
+        - title: Yahoo Finance
+          url: https://finance.yahoo.com/
+          description: Stock market live, quotes, business & finance news
+        - title: TradingView
+          url: https://www.tradingview.com/
+          description: Track all markets on TradingView
+    - term: Crypto Exchanges
+      links:
+        - title: OKX
+          url: https://www.okx.com/
+          description: Buy, sell and trade Bitcoin and other cryptocurrencies
+        - title: Binance
+          url: https://www.binance.com/
+          description: The world's leading cryptocurrency exchange
+        - title: Bybit
+          url: https://www.bybit.com/
+          description: Buy Crypto | Trade Derivatives with Bybit
+        - title: Coinbase
+          url: https://www.coinbase.com/
+          description: Buy, sell, and use cryptocurrency
+        - title: Kraken
+          url: https://www.kraken.com/
+          description: Buy Bitcoin & Crypto
+        - title: Gate.io
+          url: https://www.gate.io/
+          description: Gate.io - Leading cryptocurrency exchange    
+  
 - taxonomy: Assets
   icon: far fa-folder-open fa-lg
   list:
-    - term: Logo Design
+    - term: Icons
       links:
+        - title: Font Awesome Icon
+          logo: fontawesomeicon.png
+          url: https://fontawesome.com/icons/
+          description: The complete set of 675 icons in Font Awesome.
         - title: Iconfinder
           logo: Iconfinder.png
           url: https://www.iconfinder.com
@@ -410,10 +489,6 @@
           logo: Materialicons.png
           url: https://material.io/icons/
           description: Access over 900 material system icons, available in a variety of sizes and densities, and as a web font.
-        - title: Font Awesome Icon
-          logo: fontawesomeicon.png
-          url: https://fontawesome.com/icons/
-          description: The complete set of 675 icons in Font Awesome.
         - title: ion icons
           logo: ionicons.png
           url: http://ionicons.com/
@@ -422,8 +497,6 @@
           logo: simplelineicons.png
           url: http://simplelineicons.com/
           description: Simple line Icons pack.
-    - term: Icons
-      links:
         - title: Iconsfeed
           logo: iconsfeed.png
           url: http://www.iconsfeed.com/
@@ -563,7 +636,6 @@
   list: 
 
 
-
 - taxonomy: Educational
   icon: fas fa-pencil-alt fa-lg
   list: 
@@ -575,16 +647,9 @@
         - title: Passport Index 2025
           url: https://www.passportindex.org
           description: World's passports in your pocket.
-    - term: Documents
-      links:
-        - title: SurvivSJTUManual
-          url: https://survivesjtu.gitbook.io/survivesjtumanual
-          logo: 
-          description: SurvivSJTUManual
-        - title: 
-          url: 
-          logo: 
-          description: 
+        - title: Submarine Cable Map
+          url: https://www.submarinecablemap.com
+          description: TeleGeography's comprehensive and regularly updated interactive map of the world's major submarine cable systems and landing stations.
     - term: 博客论坛
       links:
         - title: Inoreader
