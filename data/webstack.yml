@@ -119,6 +119,41 @@
         - title: OpenClaw
           url: https://myclaw.ai/
           description: OpenClaw, Always Online
+    - term: AI Creative
+      links:
+        - title: Midjourney
+          url: https://www.midjourney.com/
+          description: AI image generation
+        - title: Adobe Firefly
+          url: https://firefly.adobe.com/
+          description: AI image generation by Adobe
+        - title: Leonardo.ai
+          url: https://leonardo.ai/
+          description: AI image generation and creative tools
+        - title: Stability AI
+          url: https://stability.ai/
+          description: Open source AI image generation (Stable Diffusion)
+        - title: Runway
+          url: https://runwayml.com/
+          description: AI video generation and editing
+        - title: Pika
+          url: https://pika.art/
+          description: AI video generation
+        - title: Sora
+          url: https://sora.com/
+          description: AI video generation by OpenAI
+        - title: Kling AI
+          url: https://klingai.com/
+          description: AI video generation by Kuaishou
+        - title: HeyGen
+          url: https://www.heygen.com/
+          description: AI video generation with avatars
+        - title: Happy Horse
+          url: https://happyhorsesai.com
+          description: HappyHorse - The latest AI video model from Alibaba
+        - title: Happy Oyster
+          url: https://www.happyoyster.cn/
+          description: The world is your Oyster. Open it.
     - term: Academic Research
       links:
         - title: arXiv
