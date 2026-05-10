@@ -74,7 +74,7 @@
 - taxonomy: Online System
   icon: fas fa-tools fa-lg
   links:
-    - title: 希望番号・図柄ナンバープレート申込サービス
+     - title: 希望番号・図柄ナンバープレート申込サービス
        url: https://www.kibou-number.jp/
        description: 希望番号・図柄ナンバープレート申込サービス
      - title: 出入国在留管理庁電子届出システム
