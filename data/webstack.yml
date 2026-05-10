@@ -74,6 +74,9 @@
 - taxonomy: Online System
   icon: fas fa-tools fa-lg
   links:
+    - title: 希望番号・図柄ナンバープレート申込サービス
+       url: https://www.kibou-number.jp/
+       description: 希望番号・図柄ナンバープレート申込サービス
      - title: 出入国在留管理庁電子届出システム
        logo: 
        url: https://www.rasens-immi.moj.go.jp/rasens-u/offer/offerList_initDisplay
@@ -149,8 +152,11 @@
           url: https://www.heygen.com/
           description: AI video generation with avatars
         - title: Happy Horse
-          url: https://happyhorsesai.com
+          url: https://www.happyhorse.com
           description: HappyHorse - The latest AI video model from Alibaba
+        - title: 即梦AI
+          url: https://jimeng.jianying.com
+          description: 即梦AI - 即刻造梦
         - title: Happy Oyster
           url: https://www.happyoyster.cn/
           description: The world is your Oyster. Open it.
