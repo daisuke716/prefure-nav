@@ -97,6 +97,11 @@
 - taxonomy: Online Tools
   icon: fas fa-flask fa-lg
   list:
+    - term: Life
+      links:
+        - title: フエルモ
+          url: https://fuerumo.com
+          description: お金を増やす。ムダを減らす。
     - term: General AI
       links:
         - title: ChatGPT
