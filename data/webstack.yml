@@ -679,8 +679,12 @@
 
 - taxonomy: Development
   icon: fas fa-tools fa-lg
-  list: 
-
+  list:
+    - term: Archives
+      links:
+        - title: NVIDIA JetPack Archive
+          url: https://developer.nvidia.com/embedded/jetpack-archive
+          description: Archive of all JetPack SDK releases for NVIDIA Jetson platforms.
 
 - taxonomy: Educational
   icon: fas fa-pencil-alt fa-lg
